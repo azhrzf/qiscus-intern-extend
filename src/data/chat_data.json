@@ -1,0 +1,177 @@
+{
+    "results": [
+        {
+            "room": {
+                "name": "Product A",
+                "id": 12456,
+                "image_url": "https://picsum.photos/id/237/200/300",
+                "participant": [
+                    {
+                        "id": "admin@mail.com",
+                        "name": "Admin",
+                        "role": 0
+                    },
+                    {
+                        "id": "agent@mail.com",
+                        "name": "Agent A",
+                        "role": 1
+                    },
+                    {
+                        "id": "customer@mail.com",
+                        "name": "King Customer",
+                        "role": 2
+                    }
+                ]
+            },
+            "comments": [
+                {
+                    "id": 885512,
+                    "type": "text",
+                    "message": "Selamat malam",
+                    "sender": "customer@mail.com",
+                    "timestamp": "2025-05-30T19:00:00Z",
+                    "attachments": []
+                },
+                {
+                    "id": 885513,
+                    "type": "text",
+                    "message": "Malam",
+                    "sender": "agent@mail.com",
+                    "timestamp": "2025-05-30T19:01:00Z",
+                    "attachments": []
+                },
+                {
+                    "id": 885514,
+                    "type": "text",
+                    "message": "Ada yang bisa saya bantu?",
+                    "sender": "agent@mail.com",
+                    "timestamp": "2025-05-30T19:01:30Z",
+                    "attachments": []
+                },
+                {
+                    "id": 885515,
+                    "type": "text",
+                    "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+                    "sender": "customer@mail.com",
+                    "timestamp": "2025-05-30T19:02:00Z",
+                    "attachments": []
+                },
+                {
+                    "id": 885516,
+                    "type": "text",
+                    "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+                    "sender": "agent@mail.com",
+                    "timestamp": "2025-05-30T19:02:30Z",
+                    "attachments": []
+                },
+                {
+                    "id": 885517,
+                    "type": "image",
+                    "message": "Ini bukti transfer saya",
+                    "sender": "customer@mail.com",
+                    "timestamp": "2025-05-30T19:03:00Z",
+                    "attachments": [
+                        {
+                            "id": "att_001",
+                            "type": "image",
+                            "filename": "bukti_transfer.jpg",
+                            "url": "https://picsum.photos/id/123/800/600",
+                            "size": 245760,
+                            "mime_type": "image/jpeg",
+                            "thumbnail_url": "https://picsum.photos/id/123/200/150"
+                        }
+                    ]
+                },
+                {
+                    "id": 885518,
+                    "type": "text",
+                    "message": "Terima kasih, saya akan verifikasi pembayaran Anda",
+                    "sender": "agent@mail.com",
+                    "timestamp": "2025-05-30T19:03:30Z",
+                    "attachments": []
+                },
+                {
+                    "id": 885519,
+                    "type": "video",
+                    "message": "Berikut tutorial cara pembayaran yang benar",
+                    "sender": "agent@mail.com",
+                    "timestamp": "2025-05-30T19:05:00Z",
+                    "attachments": [
+                        {
+                            "id": "att_002",
+                            "type": "video",
+                            "filename": "tutorial_pembayaran.mp4",
+                            "url": "https://sample-videos.com/zip/10/mp4/SampleVideo_720x480_1mb.mp4",
+                            "size": 1048576,
+                            "mime_type": "video/mp4",
+                            "duration": 30,
+                            "thumbnail_url": "https://picsum.photos/id/456/320/240"
+                        }
+                    ]
+                },
+                {
+                    "id": 885520,
+                    "type": "pdf",
+                    "message": "Silahkan baca panduan lengkap pembayaran ini",
+                    "sender": "agent@mail.com",
+                    "timestamp": "2025-05-30T19:06:00Z",
+                    "attachments": [
+                        {
+                            "id": "att_003",
+                            "type": "pdf",
+                            "filename": "panduan_pembayaran.pdf",
+                            "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                            "size": 524288,
+                            "mime_type": "application/pdf",
+                            "page_count": 5
+                        }
+                    ]
+                },
+                {
+                    "id": 885521,
+                    "type": "image",
+                    "message": "Apakah seperti ini caranya?",
+                    "sender": "customer@mail.com",
+                    "timestamp": "2025-05-30T19:07:00Z",
+                    "attachments": [
+                        {
+                            "id": "att_004",
+                            "type": "image",
+                            "filename": "screenshot_app.png",
+                            "url": "https://picsum.photos/id/789/600/800",
+                            "size": 189440,
+                            "mime_type": "image/png",
+                            "thumbnail_url": "https://picsum.photos/id/789/200/266"
+                        }
+                    ]
+                },
+                {
+                    "id": 885522,
+                    "type": "text",
+                    "message": "Ya benar! Sekarang pembayaran Anda sudah berhasil diproses. Terima kasih 😊",
+                    "sender": "agent@mail.com",
+                    "timestamp": "2025-05-30T19:08:00Z",
+                    "attachments": []
+                },
+                {
+                    "id": 885523,
+                    "type": "file",
+                    "message": "Ini dokumen invoice pembayaran Anda",
+                    "sender": "agent@mail.com",
+                    "timestamp": "2025-05-30T19:09:00Z",
+                    "attachments": [
+                        {
+                            "id": "att_005",
+                            "type": "pdf",
+                            "filename": "invoice_INV-2025-001.pdf",
+                            "url": "https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf",
+                            "size": 95232,
+                            "mime_type": "application/pdf",
+                            "page_count": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
